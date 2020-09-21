@@ -1,0 +1,23 @@
+ALGORITHM String_calculenumbervowels_numberwords_numberofcaractères 
+VAR
+      sentence:STRING:="";
+      charactere:CHAR;
+      nbcharacter,number_of_words,nbvowels:INTEGER:=0;
+   BEGIN
+   WHILE (charactere<>".") DO
+       write("enter your charcter");
+    charactere=read(charactere);
+       sentence=sentence+charactere;
+       nbcharacter=nbcharacter+1;
+  IF (charactere="A"||charactere="O"charactere="U"||charactere="I"charactere="Y"
+    charactere="a"||charactere="o"charactere="u"||charactere="i"charactere="y") THEN
+    
+    
+       nbvowels=nbvowels+1;
+ }
+  IF(charactere=" ")THEN
+      
+     
+      number_of_words=number_of_words+1;
+    } END_IF
+    END_WHILE
