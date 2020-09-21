@@ -21,3 +21,7 @@ VAR
       number_of_words=number_of_words+1;
     } END_IF
     END_WHILE
+    write(sentence);
+    write(nbcharacter);
+    write(nbvowels);
+    write(number_of_words);
